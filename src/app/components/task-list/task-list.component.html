@@ -1,3 +1,30 @@
-<p>
-  task-list works!
-</p>
+<div class="row">
+    <div class="col-12">
+
+        <div class="row">
+            <div class="col-12">
+                <h1>Tareas pendientes</h1>
+                <div *ngIf="taskListNotCompleted.length === 0">
+                    No tienes tareas pendientes
+                </div>
+                <button class="btn btn-primary">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  Agregar Tarea
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>Tareas completadas</h1>
+                <button class="btn btn-primary">
+                  <i class="fa fa-eye-slash" aria-hidden="true"></i>
+                  Ocultar tareas completadas
+                </button>
+                <div *ngIf="taskListCompleted.length === 0">
+                    No tienes tareas completadas
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

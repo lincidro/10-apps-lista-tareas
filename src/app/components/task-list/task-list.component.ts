@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskListComponent implements OnInit {
 
-  constructor() { }
+  public taskListCompleted: any[];
+  public taskListNotCompleted: any[];
+
+  constructor() {
+    this.taskListCompleted = [];
+    this.taskListNotCompleted = [];
+  }
 
   ngOnInit() {
   }
