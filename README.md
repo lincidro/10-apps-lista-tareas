@@ -28,9 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Extra instructions
 
-    Instalar bootstrap y jquery
-    npm i bootstrap
-    npm i jquery
-    revisar el package.json y evitar que se actualice la version borrando el ~ de la version
-    Luego ir a angular.json y actualizar styles(el 1ero) y scripts
-    Añadir font-awesome: npm i font-awesome@4.7.0 y agregarlo a styles
+1st commit
+Instalar bootstrap y jquery
+npm i bootstrap
+npm i jquery
+revisar el package.json y evitar que se actualice la version borrando el ~ de la version
+Luego ir a angular.json y actualizar styles(el 1ero) y scripts
+Añadir font-awesome: npm i font-awesome@4.7.0 y agregarlo a styles
+
+2nd commit
+Se crean los componentes task-list y task, se agregan appmodules
