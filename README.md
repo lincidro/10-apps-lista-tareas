@@ -48,3 +48,7 @@ Estilos generales para tasklist
 5th commit
 Se agrega la interface Task
 Crear input para agregar tasks
+
+6th commit
+Se recibe el input de tasks asi como su validacion
+Se agrega el input al array de tareas
