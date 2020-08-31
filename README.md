@@ -38,3 +38,9 @@ Añadir font-awesome: npm i font-awesome@4.7.0 y agregarlo a styles
 
 2nd commit
 Se crean los componentes task-list y task, se agregan appmodules
+
+3rd commit
+Estrucura base de tasklist
+
+4th commit
+Estilos generales para tasklist
