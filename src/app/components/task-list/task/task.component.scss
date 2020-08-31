@@ -1,0 +1,27 @@
+$black: #000;
+$border_config_1: 1px solid $black;
+.block-date {
+    border-top: $border_config_1;
+    border-bottom: $border_config_1;
+    border-left: $border_config_1;
+    text-align: center;
+}
+
+.block-description {
+    border-top: $border_config_1;
+    border-bottom: $border_config_1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.block-actions {
+    border-top: $border_config_1;
+    border-bottom: $border_config_1;
+    border-right: $border_config_1;
+}
+
+.icon-action {
+    font-size: 32px;
+    cursor: pointer;
+    margin-right: 5px;
+}

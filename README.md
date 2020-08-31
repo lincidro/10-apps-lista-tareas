@@ -55,3 +55,6 @@ Se agrega el input al array de tareas
 
 7th commit
 Configurando inputs de task
+
+8th commit
+Actulizacion de estructura y estilos de task
