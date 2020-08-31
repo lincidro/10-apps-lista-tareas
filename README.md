@@ -52,3 +52,6 @@ Crear input para agregar tasks
 6th commit
 Se recibe el input de tasks asi como su validacion
 Se agrega el input al array de tareas
+
+7th commit
+Configurando inputs de task

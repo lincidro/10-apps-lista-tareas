@@ -4,6 +4,10 @@
         <div class="row">
             <div class="col-12">
                 <h1>Tareas pendientes</h1>
+                <div *ngIf="taskListNotCompleted.length > 0">
+                    <app-task *ngFor="let item of taskListNotCompleted; let index = index" [task]="item" [index]="index">
+                    </app-task>
+                </div>
                 <div *ngIf="taskListNotCompleted.length === 0">
                     No tienes tareas pendientes
                 </div>

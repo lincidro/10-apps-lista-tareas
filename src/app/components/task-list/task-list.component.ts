@@ -26,14 +26,14 @@ export class TaskListComponent implements OnInit {
     this.showInputTask = true;
   }
 
-  addTask(description) {
+  addTask(descripcion) {
 
-    if (description) {
-      console.log(description);
+    if (descripcion) {
+      console.log(descripcion);
 
       const task: Task = {
         date: new Date(),
-        descripcion: description,
+        description: descripcion,
         completed: false
       };
 
