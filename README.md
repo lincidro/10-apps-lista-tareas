@@ -44,3 +44,7 @@ Estrucura base de tasklist
 
 4th commit
 Estilos generales para tasklist
+
+5th commit
+Se agrega la interface Task
+Crear input para agregar tasks

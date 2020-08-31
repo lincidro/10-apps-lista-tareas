@@ -7,10 +7,21 @@
                 <div *ngIf="taskListNotCompleted.length === 0">
                     No tienes tareas pendientes
                 </div>
-                <button class="btn btn-primary">
+                <button class="btn btn-primary" (click)="showInputTextTask()">
                   <i class="fa fa-plus" aria-hidden="true"></i>
                   Agregar Tarea
                 </button>
+                <div *ngIf="showInputTask" class="input-group mt-2 mb-2">
+                    <input type="text" class="form-control" #task (keydown.enter)="addTask(task.value)">
+                    <span class="input-group-btn">
+                      <button
+                      type="button"
+                      class="btn btn-primary rounded-0"
+                      (click)="addTask(task.value)">
+                        Añadir
+                      </button>
+                    </span>
+                </div>
             </div>
         </div>
         <div class="row">
