@@ -58,3 +58,6 @@ Configurando inputs de task
 
 8th commit
 Actulizacion de estructura y estilos de task
+
+9th commit
+Pipes en task
